@@ -1,12 +1,15 @@
 function calcTabuada(value, count){
 
   if(count<=10){
-    let  lista = document.getElementById('tabuada');
+    /*let  lista = document.getElementById('tabuada');
     let li = document.createElement('li');
   
     li.appendChild(document.createTextNode(`${value} X ${count} = ${value * count}`));
-    lista.appendChild(li);
-    calcTabuada(value, count + 1)
+    lista.appendChild(li);*/
+
+    
+
+    calcTabuada(value, count + 1);
   }
 }
 
